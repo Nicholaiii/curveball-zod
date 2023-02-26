@@ -13,16 +13,16 @@ type CompatibleZodInfer<T extends CompatibleZodType> = T['_output'];
  *
  * Creates validation functions for Curveball handlers and controllers
  * Throws HttpErrors that can be handled by @curveball/problem
- * 
+ *
  * ### Example (es imports)
  * ```js
  * // validation.ts
  * import { validate } from 'curveball-zod'
  * const post = validate({ name: z.string() })
- * 
+ *
  * // controller.ts:
  * import * as validate from './validation'
- * 
+ *
  * class UserController extends Controller {
  *   post (ctx: Context) {
  *     const body = await validate.post(ctx)
