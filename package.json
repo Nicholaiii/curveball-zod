@@ -1,6 +1,6 @@
 {
   "name": "curveball-zod",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Curveball compatible zod validation",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
@@ -12,7 +12,15 @@
     "email": "nicholainissen@gmail.com",
     "url": "https://nicholai.dev"
   },
-  "keywords": ["curveball", "zod", "validation", "validator", "validate", "yup", "joi"],
+  "keywords": [
+    "curveball",
+    "zod",
+    "validation",
+    "validator",
+    "validate",
+    "yup",
+    "joi"
+  ],
   "scripts": {
     "build": "run-p build:*",
     "build:main": "tsc -p tsconfig.json",
