@@ -49,7 +49,7 @@
   },
   "peerDependencies": {
     "@curveball/core": "^0.21",
-    "@curveball/http-errors": "^0.5",
+    "@curveball/http-errors": "^1.0.1",
     "zod": "^3"
   },
   "devDependencies": {
